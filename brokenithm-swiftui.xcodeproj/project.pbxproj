@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5B246D2C822AB40009640E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B24642C822AB40009640E /* Network.swift */; };
+		1E5B246E2C822AB40009640E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B24682C822AB40009640E /* ContentView.swift */; };
+		1E5B246F2C822AB40009640E /* brokenithm_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B246B2C822AB40009640E /* brokenithm_swiftuiApp.swift */; };
+		1E5B24702C822AB40009640E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B24662C822AB40009640E /* Preview Assets.xcassets */; };
+		1E5B24712C822AB40009640E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B246A2C822AB40009640E /* Assets.xcassets */; };
+		1EAE27952C91F785007E178F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE27942C91F785007E178F /* SliderView.swift */; };
+		1EAE27972C91F976007E178F /* AirInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE27962C91F976007E178F /* AirInputView.swift */; };
+		1EAE27992C9246B4007E178F /* InputBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE27982C9246B4007E178F /* InputBoardView.swift */; };
+		1EEC05AB2C977581001DAA1D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEC05AA2C977581001DAA1D /* AboutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E33B1712C7E549200D606C4 /* brokenithm-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "brokenithm-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5B24642C822AB40009640E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		1E5B24662C822AB40009640E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E5B24682C822AB40009640E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E5B246A2C822AB40009640E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E5B246B2C822AB40009640E /* brokenithm_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brokenithm_swiftuiApp.swift; sourceTree = "<group>"; };
+		1EAE27942C91F785007E178F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		1EAE27962C91F976007E178F /* AirInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirInputView.swift; sourceTree = "<group>"; };
+		1EAE27982C9246B4007E178F /* InputBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBoardView.swift; sourceTree = "<group>"; };
+		1EB7525A2C879CAF0034DA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1EEC05AA2C977581001DAA1D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E33B16E2C7E549200D606C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E33B1682C7E549200D606C4 = {
+			isa = PBXGroup;
+			children = (
+				1E5B246C2C822AB40009640E /* brokenithm-swiftui */,
+				1E33B1722C7E549200D606C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E33B1722C7E549200D606C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E33B1712C7E549200D606C4 /* brokenithm-swiftui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E5B24652C822AB40009640E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B24642C822AB40009640E /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1E5B24672C822AB40009640E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B24662C822AB40009640E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E5B24692C822AB40009640E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B24682C822AB40009640E /* ContentView.swift */,
+				1EAE27942C91F785007E178F /* SliderView.swift */,
+				1EAE27962C91F976007E178F /* AirInputView.swift */,
+				1EAE27982C9246B4007E178F /* InputBoardView.swift */,
+				1EEC05AA2C977581001DAA1D /* AboutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E5B246C2C822AB40009640E /* brokenithm-swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				1EB7525A2C879CAF0034DA54 /* Info.plist */,
+				1E5B246B2C822AB40009640E /* brokenithm_swiftuiApp.swift */,
+				1E5B24652C822AB40009640E /* Network */,
+				1E5B24692C822AB40009640E /* Views */,
+				1E5B24672C822AB40009640E /* Preview Content */,
+				1E5B246A2C822AB40009640E /* Assets.xcassets */,
+			);
+			path = "brokenithm-swiftui";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E33B1702C7E549200D606C4 /* brokenithm-swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E33B17F2C7E549300D606C4 /* Build configuration list for PBXNativeTarget "brokenithm-swiftui" */;
+			buildPhases = (
+				1E33B16D2C7E549200D606C4 /* Sources */,
+				1E33B16E2C7E549200D606C4 /* Frameworks */,
+				1E33B16F2C7E549200D606C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "brokenithm-swiftui";
+			packageProductDependencies = (
+			);
+			productName = "brokenithm-swiftui";
+			productReference = 1E33B1712C7E549200D606C4 /* brokenithm-swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E33B1692C7E549200D606C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					1E33B1702C7E549200D606C4 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 1E33B16C2C7E549200D606C4 /* Build configuration list for PBXProject "brokenithm-swiftui" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E33B1682C7E549200D606C4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1E33B1722C7E549200D606C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E33B1702C7E549200D606C4 /* brokenithm-swiftui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E33B16F2C7E549200D606C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5B24702C822AB40009640E /* Preview Assets.xcassets in Resources */,
+				1E5B24712C822AB40009640E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E33B16D2C7E549200D606C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAE27972C91F976007E178F /* AirInputView.swift in Sources */,
+				1EEC05AB2C977581001DAA1D /* AboutView.swift in Sources */,
+				1E5B246D2C822AB40009640E /* Network.swift in Sources */,
+				1EAE27992C9246B4007E178F /* InputBoardView.swift in Sources */,
+				1E5B246E2C822AB40009640E /* ContentView.swift in Sources */,
+				1E5B246F2C822AB40009640E /* brokenithm_swiftuiApp.swift in Sources */,
+				1EAE27952C91F785007E178F /* SliderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E33B17D2C7E549300D606C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E33B17E2C7E549300D606C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E33B1802C7E549300D606C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brokenithm-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 63LV533T6V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "brokenithm-swiftui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Brokenithm;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Brokenithm needs to access the local network to connect to the Brokenithm PC client";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ocramer.brokenithm-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E33B1812C7E549300D606C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brokenithm-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 63LV533T6V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "brokenithm-swiftui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Brokenithm;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Brokenithm needs to access the local network to connect to the Brokenithm PC client";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ocramer.brokenithm-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E33B16C2C7E549200D606C4 /* Build configuration list for PBXProject "brokenithm-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E33B17D2C7E549300D606C4 /* Debug */,
+				1E33B17E2C7E549300D606C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E33B17F2C7E549300D606C4 /* Build configuration list for PBXNativeTarget "brokenithm-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E33B1802C7E549300D606C4 /* Debug */,
+				1E33B1812C7E549300D606C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E33B1692C7E549200D606C4 /* Project object */;
+}
