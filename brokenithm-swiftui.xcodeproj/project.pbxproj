@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2850852CBCD39000B12F3E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1E2850842CBCD39000B12F3E /* README.md */; };
 		1E5B246D2C822AB40009640E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B24642C822AB40009640E /* Network.swift */; };
 		1E5B246E2C822AB40009640E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B24682C822AB40009640E /* ContentView.swift */; };
 		1E5B246F2C822AB40009640E /* brokenithm_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B246B2C822AB40009640E /* brokenithm_swiftuiApp.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2850842CBCD39000B12F3E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1E33B1712C7E549200D606C4 /* brokenithm-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "brokenithm-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5B24642C822AB40009640E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		1E5B24662C822AB40009640E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		1E33B1682C7E549200D606C4 = {
 			isa = PBXGroup;
 			children = (
+				1E2850842CBCD39000B12F3E /* README.md */,
 				1E5B246C2C822AB40009640E /* brokenithm-swiftui */,
 				1E33B1722C7E549200D606C4 /* Products */,
 			);
@@ -161,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2850852CBCD39000B12F3E /* README.md in Resources */,
 				1E5B24702C822AB40009640E /* Preview Assets.xcassets in Resources */,
 				1E5B24712C822AB40009640E /* Assets.xcassets in Resources */,
 			);
