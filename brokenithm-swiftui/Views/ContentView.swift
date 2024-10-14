@@ -16,7 +16,6 @@ struct ContentView: View {
     @AppStorage("airHeightOption") var airHeightOption: String = "Normal"
     let airOptions: [String] = ["Small", "Normal", "Large"]
     
-
     var body: some View {
         ZStack {
             Rectangle()
